@@ -1,0 +1,32 @@
+{ "height":40,
+ "layers":[
+        {
+         "compression":"zlib",
+         "data":"eJztmNuOgjAQhmflYj0kHhNdNeuieEB3F33\/p3OIEMikoUOlw5h48QVISvr5T1smbgBg45EhMkLGnudxITH4\/SjwepX80qzmyAL5UuBj4gPpIAHx9jHXElnVYI30kD4yEMhii+xqEHn0iyv89sgFObToV5VfxMxTwu+o0O9GvKjfHzzW\/7+wH11z9NmWF12XTfiZ9kFM8svvbX4016byO5Hn3Kdufr7rSz0p56x+XH4b8PvM6ELxLaoiYI7L+X7SbwRFf5H\/1ioGzHGm91z8FlD0FxNkamHGHGd6z+fakyYEc5+jyTMU9HHpzSS8kuzKOTvL35+oofm5cPxSp1s2VtLvqtCPrmttfi71LfcXUn7XGn40S235mWqt2U86v\/R8O0Bxztl6M2m\/CNrZm1y\/dH\/a9mbYkl+595aunSs0K23\/DWqr8Zs3r8YdOr64Gw==",
+         "encoding":"base64",
+         "height":40,
+         "name":"Ground",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":40,
+         "x":0,
+         "y":0
+        }],
+ "nextobjectid":1,
+ "orientation":"orthogonal",
+ "properties":
+    {
+
+    },
+ "renderorder":"right-down",
+ "tileheight":32,
+ "tilesets":[
+        {
+         "firstgid":1,
+         "source":"..\/..\/..\/Volumes\/Tiled 0.14.0\/examples\/desert.tsx"
+        }],
+ "tilewidth":32,
+ "version":1,
+ "width":40
+}

@@ -1,0 +1,4385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Levels</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>The Forest</string>
+			<key>Level</key>
+			<integer>0</integer>
+			<key>Color 1</key>
+			<string>Blue</string>
+			<key>Color 2</key>
+			<string>Yellow</string>
+			<key>Text Color</key>
+			<string>Dark Blue</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>The Desert</string>
+			<key>Level</key>
+			<integer>5</integer>
+			<key>Color 1</key>
+			<string>Orange</string>
+			<key>Color 2</key>
+			<string>Blue</string>
+			<key>Text Color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>The Mountains</string>
+			<key>Level</key>
+			<integer>10</integer>
+			<key>Color 1</key>
+			<string>White</string>
+			<key>Color 2</key>
+			<string>Blue</string>
+			<key>Text Color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>The City</string>
+			<key>Level</key>
+			<integer>20</integer>
+			<key>Color 1</key>
+			<string>Purple</string>
+			<key>Color 2</key>
+			<string>Yellow</string>
+			<key>Text Color</key>
+			<string>White</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>The Bridge</string>
+			<key>Level</key>
+			<integer>30</integer>
+			<key>Color 1</key>
+			<string>Red</string>
+			<key>Color 2</key>
+			<string>White</string>
+			<key>Text Color</key>
+			<string>White</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>The Moon</string>
+			<key>Level</key>
+			<integer>40</integer>
+			<key>Color 1</key>
+			<string>Black</string>
+			<key>Color 2</key>
+			<string>Purple</string>
+			<key>Text Color</key>
+			<string>White</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>The Ocean</string>
+			<key>Level</key>
+			<integer>50</integer>
+			<key>Color 1</key>
+			<string>Blue</string>
+			<key>Color 2</key>
+			<string>White</string>
+			<key>Text Color</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>The Sky</string>
+			<key>Level</key>
+			<integer>60</integer>
+			<key>Color 1</key>
+			<string>Orange</string>
+			<key>Color 2</key>
+			<string>Blue</string>
+			<key>Text Color</key>
+			<string>Black</string>
+		</dict>
+	</array>
+	<key>Skills</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Shield</string>
+			<key>Color</key>
+			<string>Green</string>
+			<key>Type</key>
+			<string>Ability</string>
+			<key>Description</key>
+			<string>When activated, this special ability prevents your from taking damage of any kind.</string>
+			<key>Upgrades</key>
+			<array>
+				<dict>
+					<key>Cost</key>
+					<integer>40</integer>
+					<key>Rank</key>
+					<integer>0</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>10 Seconds</string>
+							<key>Amount</key>
+							<integer>10</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 Second Duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>3</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies to Activate</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>250</integer>
+					<key>Rank</key>
+					<integer>10</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 second duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>500</integer>
+					<key>Rank</key>
+					<integer>20</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>20 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Damage Bubble</string>
+			<key>Color</key>
+			<string>Red</string>
+			<key>Type</key>
+			<string>Damage Bubble</string>
+			<key>Description</key>
+			<string>Upon taking damage, you are temporarily invincible for a short amount of time.</string>
+			<key>Upgrades</key>
+			<array>
+				<dict>
+					<key>Cost</key>
+					<integer>25</integer>
+					<key>Rank</key>
+					<integer>0</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>1 second</string>
+							<key>Amount</key>
+							<integer>1</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+1 Second Duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>50</integer>
+					<key>Rank</key>
+					<integer>3</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>2 seconds</string>
+							<key>Amount</key>
+							<integer>2</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+1 Second Duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>75</integer>
+					<key>Rank</key>
+					<integer>6</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>3 seconds</string>
+							<key>Amount</key>
+							<integer>3</integer>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Bounce Boost</string>
+			<key>Color</key>
+			<string>Blue</string>
+			<key>Type</key>
+			<string>Bounce Boost</string>
+			<key>Description</key>
+			<string>When equipped, your character bounces a bit higher than before.</string>
+			<key>Upgrades</key>
+			<array>
+				<dict>
+					<key>Cost</key>
+					<integer>75</integer>
+					<key>Rank</key>
+					<integer>0</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Percentage</string>
+							<key>Title</key>
+							<string>Bounce Height</string>
+							<key>Description</key>
+							<string>10% higher</string>
+							<key>Amount</key>
+							<integer>10</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>200</integer>
+					<key>Rank</key>
+					<integer>15</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Percentage</string>
+							<key>Title</key>
+							<string>Bounce Height</string>
+							<key>Description</key>
+							<string>10% higher</string>
+							<key>Amount</key>
+							<integer>10</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5% bounce height</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>200</integer>
+					<key>Rank</key>
+					<integer>15</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Percentage</string>
+							<key>Title</key>
+							<string>Bounce Height</string>
+							<key>Description</key>
+							<string>15% higher</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Smash</string>
+			<key>Color</key>
+			<string>Green</string>
+			<key>Type</key>
+			<string>Special</string>
+			<key>Description</key>
+			<string>Sends you smashing towards the ground, creating an explosion that destroyes all nearby enemies.</string>
+			<key>Upgrades</key>
+			<array>
+				<dict>
+					<key>Cost</key>
+					<integer>200</integer>
+					<key>Rank</key>
+					<integer>0</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 10 Enemies</string>
+							<key>Amount</key>
+							<integer>10</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>0</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>10 Seconds</string>
+							<key>Amount</key>
+							<integer>10</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Sheild</string>
+			<key>Color</key>
+			<string>Green</string>
+			<key>Type</key>
+			<string>Special</string>
+			<key>Description</key>
+			<string>When activated, this special ability prevents your from taking damage of any kind.</string>
+			<key>Upgrades</key>
+			<array>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>5</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>10 Seconds</string>
+							<key>Amount</key>
+							<integer>10</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 Second Duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>8</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies to Activate</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>250</integer>
+					<key>Rank</key>
+					<integer>10</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 second duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>500</integer>
+					<key>Rank</key>
+					<integer>15</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>20 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Sheild</string>
+			<key>Color</key>
+			<string>Green</string>
+			<key>Type</key>
+			<string>Special</string>
+			<key>Description</key>
+			<string>When activated, this special ability prevents your from taking damage of any kind.</string>
+			<key>Upgrades</key>
+			<array>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>5</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>10 Seconds</string>
+							<key>Amount</key>
+							<integer>10</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 Second Duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>3</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies to Activate</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>250</integer>
+					<key>Rank</key>
+					<integer>10</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 second duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>500</integer>
+					<key>Rank</key>
+					<integer>20</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>20 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Sheild</string>
+			<key>Type</key>
+			<string>Special</string>
+			<key>Color</key>
+			<string>Green</string>
+			<key>Description</key>
+			<string>When activated, this special ability prevents your from taking damage of any kind.</string>
+			<key>Upgrades</key>
+			<array>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>10</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>10 Seconds</string>
+							<key>Amount</key>
+							<integer>10</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 Second Duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>3</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies to Activate</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>250</integer>
+					<key>Rank</key>
+					<integer>10</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 second duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>500</integer>
+					<key>Rank</key>
+					<integer>20</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>20 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Sheild</string>
+			<key>Color</key>
+			<string>Green</string>
+			<key>Type</key>
+			<string>Special</string>
+			<key>Description</key>
+			<string>When activated, this special ability prevents your from taking damage of any kind.</string>
+			<key>Upgrades</key>
+			<array>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>10</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>10 Seconds</string>
+							<key>Amount</key>
+							<integer>10</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 Second Duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>3</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies to Activate</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>250</integer>
+					<key>Rank</key>
+					<integer>10</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 second duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>500</integer>
+					<key>Rank</key>
+					<integer>20</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>20 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Sheild</string>
+			<key>Type</key>
+			<string>Special</string>
+			<key>Color</key>
+			<string>Green</string>
+			<key>Description</key>
+			<string>When activated, this special ability prevents your from taking damage of any kind.</string>
+			<key>Upgrades</key>
+			<array>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>10</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>10 Seconds</string>
+							<key>Amount</key>
+							<integer>10</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 Second Duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>3</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies to Activate</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>250</integer>
+					<key>Rank</key>
+					<integer>10</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 second duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>500</integer>
+					<key>Rank</key>
+					<integer>20</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>20 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Sheild</string>
+			<key>Type</key>
+			<string>Special</string>
+			<key>Color</key>
+			<string>Green</string>
+			<key>Description</key>
+			<string>When activated, this special ability prevents your from taking damage of any kind.</string>
+			<key>Upgrades</key>
+			<array>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>15</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>10 Seconds</string>
+							<key>Amount</key>
+							<integer>10</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 Second Duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>3</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies to Activate</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>250</integer>
+					<key>Rank</key>
+					<integer>10</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 second duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>500</integer>
+					<key>Rank</key>
+					<integer>20</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>20 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Sheild</string>
+			<key>Type</key>
+			<string>Special</string>
+			<key>Color</key>
+			<string>Green</string>
+			<key>Description</key>
+			<string>When activated, this special ability prevents your from taking damage of any kind.</string>
+			<key>Upgrades</key>
+			<array>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>15</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>10 Seconds</string>
+							<key>Amount</key>
+							<integer>10</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 Second Duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>3</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies to Activate</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>250</integer>
+					<key>Rank</key>
+					<integer>10</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 second duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>500</integer>
+					<key>Rank</key>
+					<integer>20</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>20 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Sheild</string>
+			<key>Color</key>
+			<string>Green</string>
+			<key>Type</key>
+			<string>Special</string>
+			<key>Description</key>
+			<string>When activated, this special ability prevents your from taking damage of any kind.</string>
+			<key>Upgrades</key>
+			<array>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>15</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>10 Seconds</string>
+							<key>Amount</key>
+							<integer>10</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 Second Duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>3</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies to Activate</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>250</integer>
+					<key>Rank</key>
+					<integer>10</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 second duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>500</integer>
+					<key>Rank</key>
+					<integer>20</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>20 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Sheild</string>
+			<key>Type</key>
+			<string>Special</string>
+			<key>Color</key>
+			<string>Green</string>
+			<key>Description</key>
+			<string>When activated, this special ability prevents your from taking damage of any kind.</string>
+			<key>Upgrades</key>
+			<array>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>15</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>10 Seconds</string>
+							<key>Amount</key>
+							<integer>10</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 Second Duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>3</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies to Activate</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>250</integer>
+					<key>Rank</key>
+					<integer>10</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 second duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>500</integer>
+					<key>Rank</key>
+					<integer>20</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>20 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Sheild</string>
+			<key>Type</key>
+			<string>Special</string>
+			<key>Color</key>
+			<string>Green</string>
+			<key>Description</key>
+			<string>When activated, this special ability prevents your from taking damage of any kind.</string>
+			<key>Upgrades</key>
+			<array>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>20</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>10 Seconds</string>
+							<key>Amount</key>
+							<integer>10</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 Second Duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>3</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies to Activate</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>250</integer>
+					<key>Rank</key>
+					<integer>10</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 second duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>500</integer>
+					<key>Rank</key>
+					<integer>20</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>20 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Sheild</string>
+			<key>Type</key>
+			<string>Special</string>
+			<key>Color</key>
+			<string>Green</string>
+			<key>Description</key>
+			<string>When activated, this special ability prevents your from taking damage of any kind.</string>
+			<key>Upgrades</key>
+			<array>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>20</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>10 Seconds</string>
+							<key>Amount</key>
+							<integer>10</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 Second Duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>3</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies to Activate</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>250</integer>
+					<key>Rank</key>
+					<integer>10</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 second duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>500</integer>
+					<key>Rank</key>
+					<integer>20</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>20 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Sheild</string>
+			<key>Type</key>
+			<string>Special</string>
+			<key>Color</key>
+			<string>Green</string>
+			<key>Description</key>
+			<string>When activated, this special ability prevents your from taking damage of any kind.</string>
+			<key>Upgrades</key>
+			<array>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>25</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>10 Seconds</string>
+							<key>Amount</key>
+							<integer>10</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 Second Duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>3</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies to Activate</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>250</integer>
+					<key>Rank</key>
+					<integer>10</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 second duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>500</integer>
+					<key>Rank</key>
+					<integer>20</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>20 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Sheild</string>
+			<key>Type</key>
+			<string>Special</string>
+			<key>Color</key>
+			<string>Green</string>
+			<key>Description</key>
+			<string>When activated, this special ability prevents your from taking damage of any kind.</string>
+			<key>Upgrades</key>
+			<array>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>30</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>10 Seconds</string>
+							<key>Amount</key>
+							<integer>10</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 Second Duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>3</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies to Activate</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>250</integer>
+					<key>Rank</key>
+					<integer>10</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 second duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>500</integer>
+					<key>Rank</key>
+					<integer>20</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>20 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Sheild</string>
+			<key>Type</key>
+			<string>Special</string>
+			<key>Color</key>
+			<string>Green</string>
+			<key>Description</key>
+			<string>When activated, this special ability prevents your from taking damage of any kind.</string>
+			<key>Upgrades</key>
+			<array>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>35</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>10 Seconds</string>
+							<key>Amount</key>
+							<integer>10</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 Second Duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>3</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 20 Enemies</string>
+							<key>Amount</key>
+							<integer>20</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies to Activate</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>250</integer>
+					<key>Rank</key>
+					<integer>10</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>15 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>+5 second duration</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>500</integer>
+					<key>Rank</key>
+					<integer>20</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>20 Seconds</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 15 Enemies</string>
+							<key>Amount</key>
+							<integer>15</integer>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Additional Jump</string>
+			<key>Type</key>
+			<string>Additional Jump</string>
+			<key>Color</key>
+			<string>Blue</string>
+			<key>Description</key>
+			<string>Between each time you hit the ground or an enemy, you gain an additional Jump.</string>
+			<key>Upgrades</key>
+			<array>
+				<dict>
+					<key>Cost</key>
+					<integer>500</integer>
+					<key>Rank</key>
+					<integer>55</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Infinity</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>Always on</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>100</integer>
+					<key>Rank</key>
+					<integer>40</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Infinity</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>Always on</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>Achievements</key>
+	<array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>500</integer>
+				<key>Description</key>
+				<string>Score 500 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievReachRound</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>2</integer>
+				<key>Description</key>
+				<string>Reach Round 2</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievSpecialActivations</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>1</integer>
+				<key>Description</key>
+				<string>Activate your Special Ability</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievComboMultiplier</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>2</integer>
+				<key>Description</key>
+				<string>Score a Combo</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievKillsTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>10</integer>
+				<key>Description</key>
+				<string>Destroy 10 enemies</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>2000</integer>
+				<key>Description</key>
+				<string>Score 2,000 points</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievReachRound</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>3</integer>
+				<key>Description</key>
+				<string>Reach Round 3</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievComboScore</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>500</integer>
+				<key>Description</key>
+				<string>Score a 500 point Combo</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievKillsRound</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>8</integer>
+				<key>Description</key>
+				<string>Destory 8 enemies in one round</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievPerfectRound</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>1</integer>
+				<key>Description</key>
+				<string>Achieve a Perfect Round</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievSpecialKills</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>5</integer>
+				<key>Description</key>
+				<string>Destroy 5 enemies with your Special activated</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>3000</integer>
+				<key>Description</key>
+				<string>Score 3000 points</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievReachRound</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>4</integer>
+				<key>Description</key>
+				<string>Reach Round 4</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievComboMultiplier</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>3</integer>
+				<key>Description</key>
+				<string>Achieve a 3x Combo</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievSpecialActivations</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>2</integer>
+				<key>Description</key>
+				<string>Activate your Special twice in one game</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreRound</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>1500</integer>
+				<key>Description</key>
+				<string>Score 1,500 points in one round</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievComboScore</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>800</integer>
+				<key>Description</key>
+				<string>Score 800 points from a single combo</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievSpecialKills</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>8</integer>
+				<key>Description</key>
+				<string>Destroy 8 enemies with your Special activated</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievKillsRound</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>10</integer>
+				<key>Description</key>
+				<string>Destroy 10 enemies in one round</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>5000</integer>
+				<key>Description</key>
+				<string>Score 5000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>3000</integer>
+				<key>Description</key>
+				<string>Score 3000 points</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>1000</integer>
+				<key>Description</key>
+				<string>Score 1000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>2000</integer>
+				<key>Description</key>
+				<string>Score 2000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>3000</integer>
+				<key>Description</key>
+				<string>Score 3000 points</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>1000</integer>
+				<key>Description</key>
+				<string>Score 1000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>2000</integer>
+				<key>Description</key>
+				<string>Score 2000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>3000</integer>
+				<key>Description</key>
+				<string>Score 3000 points</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>1000</integer>
+				<key>Description</key>
+				<string>Score 1000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>2000</integer>
+				<key>Description</key>
+				<string>Score 2000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>3000</integer>
+				<key>Description</key>
+				<string>Score 3000 points</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>1000</integer>
+				<key>Description</key>
+				<string>Score 1000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>2000</integer>
+				<key>Description</key>
+				<string>Score 2000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>3000</integer>
+				<key>Description</key>
+				<string>Score 3000 points</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>1000</integer>
+				<key>Description</key>
+				<string>Score 1000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>2000</integer>
+				<key>Description</key>
+				<string>Score 2000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>3000</integer>
+				<key>Description</key>
+				<string>Score 3000 points</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>1000</integer>
+				<key>Description</key>
+				<string>Score 1000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>2000</integer>
+				<key>Description</key>
+				<string>Score 2000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>3000</integer>
+				<key>Description</key>
+				<string>Score 3000 points</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>1000</integer>
+				<key>Description</key>
+				<string>Score 1000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>2000</integer>
+				<key>Description</key>
+				<string>Score 2000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>3000</integer>
+				<key>Description</key>
+				<string>Score 3000 points</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>1000</integer>
+				<key>Description</key>
+				<string>Score 1000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>2000</integer>
+				<key>Description</key>
+				<string>Score 2000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>3000</integer>
+				<key>Description</key>
+				<string>Score 3000 points</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>1000</integer>
+				<key>Description</key>
+				<string>Score 1000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>2000</integer>
+				<key>Description</key>
+				<string>Score 2000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>3000</integer>
+				<key>Description</key>
+				<string>Score 3000 points</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>1000</integer>
+				<key>Description</key>
+				<string>Score 1000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>2000</integer>
+				<key>Description</key>
+				<string>Score 2000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>3000</integer>
+				<key>Description</key>
+				<string>Score 3000 points</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>1000</integer>
+				<key>Description</key>
+				<string>Score 1000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>2000</integer>
+				<key>Description</key>
+				<string>Score 2000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>3000</integer>
+				<key>Description</key>
+				<string>Score 3000 points</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>1000</integer>
+				<key>Description</key>
+				<string>Score 1000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>2000</integer>
+				<key>Description</key>
+				<string>Score 2000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>3000</integer>
+				<key>Description</key>
+				<string>Score 3000 points</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>1000</integer>
+				<key>Description</key>
+				<string>Score 1000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>2000</integer>
+				<key>Description</key>
+				<string>Score 2000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>3000</integer>
+				<key>Description</key>
+				<string>Score 3000 points</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>1000</integer>
+				<key>Description</key>
+				<string>Score 1000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>2000</integer>
+				<key>Description</key>
+				<string>Score 2000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>3000</integer>
+				<key>Description</key>
+				<string>Score 3000 points</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>1000</integer>
+				<key>Description</key>
+				<string>Score 1000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>2000</integer>
+				<key>Description</key>
+				<string>Score 2000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>3000</integer>
+				<key>Description</key>
+				<string>Score 3000 points</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>1000</integer>
+				<key>Description</key>
+				<string>Score 1000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>2000</integer>
+				<key>Description</key>
+				<string>Score 2000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>3000</integer>
+				<key>Description</key>
+				<string>Score 3000 points</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>1000</integer>
+				<key>Description</key>
+				<string>Score 1000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>2000</integer>
+				<key>Description</key>
+				<string>Score 2000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>3000</integer>
+				<key>Description</key>
+				<string>Score 3000 points</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>1000</integer>
+				<key>Description</key>
+				<string>Score 1000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>2000</integer>
+				<key>Description</key>
+				<string>Score 2000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>3000</integer>
+				<key>Description</key>
+				<string>Score 3000 points</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>1000</integer>
+				<key>Description</key>
+				<string>Score 1000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>2000</integer>
+				<key>Description</key>
+				<string>Score 2000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>3000</integer>
+				<key>Description</key>
+				<string>Score 3000 points</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>1000</integer>
+				<key>Description</key>
+				<string>Score 1000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>2000</integer>
+				<key>Description</key>
+				<string>Score 2000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>3000</integer>
+				<key>Description</key>
+				<string>Score 3000 points</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>1000</integer>
+				<key>Description</key>
+				<string>Score 1000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>2000</integer>
+				<key>Description</key>
+				<string>Score 2000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>3000</integer>
+				<key>Description</key>
+				<string>Score 3000 points</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>1000</integer>
+				<key>Description</key>
+				<string>Score 1000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>2000</integer>
+				<key>Description</key>
+				<string>Score 2000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>3000</integer>
+				<key>Description</key>
+				<string>Score 3000 points</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>1000</integer>
+				<key>Description</key>
+				<string>Score 1000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>2000</integer>
+				<key>Description</key>
+				<string>Score 2000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>3000</integer>
+				<key>Description</key>
+				<string>Score 3000 points</string>
+			</dict>
+		</array>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>1000</integer>
+				<key>Description</key>
+				<string>Score 1000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>2000</integer>
+				<key>Description</key>
+				<string>Score 2000 points</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>achievScoreTotal</string>
+				<key>SubType</key>
+				<string></string>
+				<key>Amount</key>
+				<integer>3000</integer>
+				<key>Description</key>
+				<string>Score 3000 points</string>
+			</dict>
+		</array>
+	</array>
+	<key>Bonuses</key>
+	<dict>
+		<key>Types</key>
+		<array>
+			<dict>
+				<key>Title</key>
+				<string>Health Boost</string>
+				<key>Subtitle</key>
+				<string>+1 Health</string>
+				<key>Type</key>
+				<string>Health</string>
+				<key>Spawn Probability</key>
+				<real>0.4</real>
+				<key>Spawn Start Time</key>
+				<integer>0</integer>
+				<key>Amount</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Health Boost</string>
+				<key>Subtitle</key>
+				<string>+2 Health</string>
+				<key>Type</key>
+				<string>Health</string>
+				<key>Spawn Probability</key>
+				<real>0.3</real>
+				<key>Spawn Start Time</key>
+				<integer>5</integer>
+				<key>Amount</key>
+				<integer>2</integer>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Point Bonus</string>
+				<key>Subtitle</key>
+				<string>2500 points</string>
+				<key>Type</key>
+				<string>Points</string>
+				<key>Spawn Probability</key>
+				<real>0.4</real>
+				<key>Spawn Start Time</key>
+				<integer>0</integer>
+				<key>Amount</key>
+				<integer>2500</integer>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Point Bonus</string>
+				<key>Subtitle</key>
+				<string>5000 points</string>
+				<key>Type</key>
+				<string>Points</string>
+				<key>Spawn Probability</key>
+				<real>0.3</real>
+				<key>Spawn Start Time</key>
+				<integer>5</integer>
+				<key>Amount</key>
+				<integer>5000</integer>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Point Bonus</string>
+				<key>Subtitle</key>
+				<string>10,000 points</string>
+				<key>Type</key>
+				<string>Points</string>
+				<key>Spawn Probability</key>
+				<real>0.3</real>
+				<key>Spawn Start Time</key>
+				<integer>5</integer>
+				<key>Amount</key>
+				<real>10000</real>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Score Multiplier</string>
+				<key>Subtitle</key>
+				<string>1.25x for 1 Round</string>
+				<key>Type</key>
+				<string>Multiplier</string>
+				<key>Spawn Probability</key>
+				<real>0.4</real>
+				<key>Spawn Start Time</key>
+				<integer>0</integer>
+				<key>Amount</key>
+				<real>1.25</real>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Score Multiplier</string>
+				<key>Subtitle</key>
+				<string>1.5x for 1 Round</string>
+				<key>Type</key>
+				<string>Multiplier</string>
+				<key>Spawn Probability</key>
+				<real>0.3</real>
+				<key>Spawn Start Time</key>
+				<integer>5</integer>
+				<key>Amount</key>
+				<real>1.5</real>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Shield</string>
+				<key>Subtitle</key>
+				<string>10 seconds</string>
+				<key>Type</key>
+				<string>Shield</string>
+				<key>Spawn Probability</key>
+				<real>4</real>
+				<key>Spawn Start Time</key>
+				<integer>0</integer>
+				<key>Amount</key>
+				<integer>10</integer>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Shield</string>
+				<key>Subtitle</key>
+				<string>20 seconds</string>
+				<key>Type</key>
+				<string>Shield</string>
+				<key>Spawn Probability</key>
+				<real>0.3</real>
+				<key>Spawn Start Time</key>
+				<integer>5</integer>
+				<key>Amount</key>
+				<integer>20</integer>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Special Duration</string>
+				<key>Subtitle</key>
+				<string>Special lasts 15% longer</string>
+				<key>Type</key>
+				<string>Special</string>
+				<key>Spawn Probability</key>
+				<real>0.4</real>
+				<key>Spawn Start Time</key>
+				<integer>0</integer>
+				<key>Amount</key>
+				<integer>15</integer>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Special Duration</string>
+				<key>Subtitle</key>
+				<string>Special lasts 30% longer</string>
+				<key>Type</key>
+				<string>Special</string>
+				<key>Spawn Probability</key>
+				<real>0.3</real>
+				<key>Spawn Start Time</key>
+				<integer>5</integer>
+				<key>Amount</key>
+				<integer>30</integer>
+			</dict>
+		</array>
+	</dict>
+	<key>Enemies</key>
+	<dict>
+		<key>Types</key>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>Regular</string>
+				<key>Spawn Probability</key>
+				<real>0.4</real>
+				<key>Spawn Start Time</key>
+				<integer>1</integer>
+				<key>Attack</key>
+				<integer>1</integer>
+				<key>Health</key>
+				<integer>1</integer>
+				<key>Velocity</key>
+				<integer>600</integer>
+				<key>Special</key>
+				<integer>0</integer>
+				<key>Points</key>
+				<integer>100</integer>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>Medium</string>
+				<key>Spawn Probability</key>
+				<real>0.25</real>
+				<key>Spawn Start Time</key>
+				<integer>3</integer>
+				<key>Health</key>
+				<integer>2</integer>
+				<key>Attack</key>
+				<integer>1</integer>
+				<key>Velocity</key>
+				<integer>500</integer>
+				<key>Special</key>
+				<integer>0</integer>
+				<key>Points</key>
+				<integer>150</integer>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>Small</string>
+				<key>Spawn Probability</key>
+				<real>0.15</real>
+				<key>Spawn Start Time</key>
+				<integer>2</integer>
+				<key>Health</key>
+				<integer>1</integer>
+				<key>Attack</key>
+				<integer>1</integer>
+				<key>Velocity</key>
+				<integer>800</integer>
+				<key>Special</key>
+				<integer>0</integer>
+				<key>Points</key>
+				<integer>150</integer>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>Homing</string>
+				<key>Spawn Probability</key>
+				<real>0.3</real>
+				<key>Spawn Start Time</key>
+				<integer>5</integer>
+				<key>Health</key>
+				<integer>1</integer>
+				<key>Attack</key>
+				<integer>10</integer>
+				<key>Velocity</key>
+				<integer>600</integer>
+				<key>Special</key>
+				<integer>0</integer>
+				<key>Points</key>
+				<integer>200</integer>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>Random</string>
+				<key>Spawn Probability</key>
+				<real>0.15</real>
+				<key>Spawn Start Time</key>
+				<integer>4</integer>
+				<key>Health</key>
+				<integer>1</integer>
+				<key>Attack</key>
+				<integer>1</integer>
+				<key>Velocity</key>
+				<integer>50</integer>
+				<key>Special</key>
+				<integer>0</integer>
+				<key>Points</key>
+				<integer>200</integer>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>Weaponized</string>
+				<key>Spawn Probability</key>
+				<real>0.15</real>
+				<key>Spawn Start Time</key>
+				<integer>8</integer>
+				<key>Health</key>
+				<integer>1</integer>
+				<key>Attack</key>
+				<integer>1</integer>
+				<key>Velocity</key>
+				<integer>600</integer>
+				<key>Special</key>
+				<integer>0</integer>
+				<key>Points</key>
+				<integer>300</integer>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>Splitter</string>
+				<key>Spawn Probability</key>
+				<real>0.15</real>
+				<key>Spawn Start Time</key>
+				<integer>5</integer>
+				<key>Health</key>
+				<integer>2</integer>
+				<key>Attack</key>
+				<integer>1</integer>
+				<key>Velocity</key>
+				<integer>500</integer>
+				<key>Special</key>
+				<integer>0</integer>
+				<key>Points</key>
+				<integer>150</integer>
+			</dict>
+		</array>
+		<key>Spawn Points</key>
+		<array>
+			<dict>
+				<key>Enemy Type</key>
+				<integer>1</integer>
+				<key>Spawn Frequency</key>
+				<integer>20</integer>
+				<key>x</key>
+				<integer>280</integer>
+				<key>y</key>
+				<integer>120</integer>
+				<key>X Velocity</key>
+				<integer>-225</integer>
+				<key>Y Velocity</key>
+				<integer>0</integer>
+				<key>Spread</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Enemy Type</key>
+				<integer>0</integer>
+				<key>Spawn Frequency</key>
+				<integer>18</integer>
+				<key>x</key>
+				<integer>680</integer>
+				<key>y</key>
+				<integer>120</integer>
+				<key>X Velocity</key>
+				<integer>225</integer>
+				<key>Y Velocity</key>
+				<integer>0</integer>
+				<key>Spread</key>
+				<integer>0</integer>
+			</dict>
+		</array>
+	</dict>
+	<key>Characters</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Newt</string>
+			<key>Level Req</key>
+			<integer>0</integer>
+			<key>Stat Health</key>
+			<integer>5</integer>
+			<key>Stat Bounce</key>
+			<integer>5</integer>
+			<key>Stat Jump</key>
+			<integer>2</integer>
+			<key>Stat Speed</key>
+			<integer>2</integer>
+			<key>Special Text</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Marty</string>
+			<key>Level Req</key>
+			<integer>5</integer>
+			<key>Stat Health</key>
+			<integer>4</integer>
+			<key>Stat Bounce</key>
+			<integer>3</integer>
+			<key>Stat Jump</key>
+			<integer>6</integer>
+			<key>Stat Speed</key>
+			<integer>4</integer>
+			<key>Special Text</key>
+			<string>+ Attracts coins &amp; Bonuses</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Curie</string>
+			<key>Level Req</key>
+			<integer>15</integer>
+			<key>Stat Health</key>
+			<integer>5</integer>
+			<key>Stat Bounce</key>
+			<integer>5</integer>
+			<key>Stat Jump</key>
+			<integer>5</integer>
+			<key>Stat Speed</key>
+			<integer>5</integer>
+			<key>Special Text</key>
+			<string>+ Superb converstationalist</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Cole</string>
+			<key>Level Req</key>
+			<integer>25</integer>
+			<key>Stat Health</key>
+			<integer>5</integer>
+			<key>Stat Bounce</key>
+			<integer>7</integer>
+			<key>Stat Jump</key>
+			<integer>5</integer>
+			<key>Stat Speed</key>
+			<integer>6</integer>
+			<key>Special Text</key>
+			<string>+ Loves his mom</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Jorge</string>
+			<key>Level Req</key>
+			<integer>35</integer>
+			<key>Stat Health</key>
+			<integer>6</integer>
+			<key>Stat Bounce</key>
+			<integer>5</integer>
+			<key>Stat Jump</key>
+			<integer>9</integer>
+			<key>Stat Speed</key>
+			<integer>5</integer>
+			<key>Special Text</key>
+			<string>+ Been to prison twice, but maintains innocence.</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Albert</string>
+			<key>Level Req</key>
+			<integer>45</integer>
+			<key>Stat Health</key>
+			<integer>8</integer>
+			<key>Stat Bounce</key>
+			<integer>8</integer>
+			<key>Stat Jump</key>
+			<integer>8</integer>
+			<key>Stat Speed</key>
+			<integer>6</integer>
+			<key>Special Text</key>
+			<string>+ Additional Jump</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Nico</string>
+			<key>Level Req</key>
+			<integer>45</integer>
+			<key>Stat Health</key>
+			<integer>8</integer>
+			<key>Stat Bounce</key>
+			<integer>8</integer>
+			<key>Stat Jump</key>
+			<integer>8</integer>
+			<key>Stat Speed</key>
+			<integer>6</integer>
+			<key>Special Text</key>
+			<string>+ Additional Jump</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<dict>
+		<key>Types</key>
+		<array>
+			<dict>
+				<key>Type</key>
+				<string>Ground</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>Platform</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>Wall</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>Diagonal</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>Pit</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>Spike</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>Bouncer</string>
+			</dict>
+			<dict>
+				<key>Type</key>
+				<string>Portal</string>
+			</dict>
+			<string></string>
+		</array>
+		<key>Patterns</key>
+		<dict>
+			<key>Single</key>
+			<array>
+				<dict>
+					<key>x</key>
+					<integer>0</integer>
+					<key>y</key>
+					<integer>0</integer>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>Double</key>
+			<array>
+				<dict>
+					<key>x</key>
+					<integer>0</integer>
+					<key>y</key>
+					<integer>0</integer>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>x</key>
+					<integer>50</integer>
+					<key>y</key>
+					<integer>0</integer>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+			<key>DoubleBreak</key>
+			<array>
+				<dict>
+					<key>x</key>
+					<integer>0</integer>
+					<key>y</key>
+					<integer>0</integer>
+					<key>type</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>x</key>
+					<integer>50</integer>
+					<key>y</key>
+					<integer>0</integer>
+					<key>type</key>
+					<integer>1</integer>
+				</dict>
+			</array>
+			<key>Triple</key>
+			<array>
+				<dict>
+					<key>x</key>
+					<integer>0</integer>
+					<key>y</key>
+					<integer>0</integer>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>x</key>
+					<integer>30</integer>
+					<key>y</key>
+					<integer>0</integer>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>x</key>
+					<integer>60</integer>
+					<key>y</key>
+					<integer>0</integer>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>x</key>
+					<integer>90</integer>
+					<key>y</key>
+					<integer>0</integer>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>x</key>
+					<integer>120</integer>
+					<key>y</key>
+					<integer>0</integer>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>x</key>
+					<integer>150</integer>
+					<key>y</key>
+					<integer>0</integer>
+					<key>type</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+		</dict>
+		<key>Positions</key>
+		<array>
+			<dict>
+				<key>pattern</key>
+				<string>Triple</string>
+				<key>type</key>
+				<string>normal</string>
+				<key>width</key>
+				<integer>7</integer>
+				<key>height</key>
+				<integer>1</integer>
+				<key>x</key>
+				<integer>-300</integer>
+				<key>y</key>
+				<integer>250</integer>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>normal</string>
+				<key>pattern</key>
+				<string>Triple</string>
+				<key>width</key>
+				<integer>7</integer>
+				<key>height</key>
+				<integer>1</integer>
+				<key>x</key>
+				<integer>300</integer>
+				<key>y</key>
+				<integer>250</integer>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>
