@@ -97,6 +97,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     var playerOneInstaKill = false
     var playerOneSpecialDuration = 8.0 as Double
     var playerOneJump = true
+    var playerOneAbilitySmash = false
     
     var skipFrames = 0
     
@@ -276,6 +277,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         playerOneInstaKill = false
         playerOneSpecialDuration = 8.0
         playerOneJump = true
+        playerOneAbilitySmash = false
         
         skipFrames = 0
         
@@ -1101,38 +1103,45 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                 
             }
             
-            // Adjust Score
             
-            if scoreRunning > 0 {
-                let score = Int(Double(scoreRunning) * Double(scoreMultiplier) * bonusMultiplier)
-                if score > achievComboScore {
-                    achievComboScore = score
-                    checkAchievement("achievComboScore", subType: 0, amount: Double(achievComboScore))
-                }
-                if scoreMultiplier > achievComboMultiplier {
-                    achievComboMultiplier = scoreMultiplier
-                    checkAchievement("achievComboMultiplier", subType: 0, amount: Double(achievComboMultiplier))
-                }
-                adjustScore(score)
-            }
-            
-            // Check if the round is over
-            
-            if survivalRoundOver == true {
-                let enemiesLeft = foregroundNode.childNodeWithName("enemy*")
-                if enemiesLeft == nil {
-                    survivalRoundOver = false
-                    roundComplete(self.survivalRound)
-                    
-                }
-                
-            }
             
             playerOneEnemyPass = [""]
             playerOneJump = true
-            scoreMultiplier = 0
-            scoreRunning = 0
             
+            
+            if playerOneAbilitySmash == true {
+                abilitySmash()
+            } else {
+                
+                // Adjust Score
+                
+                if scoreRunning > 0 {
+                    let score = Int(Double(scoreRunning) * Double(scoreMultiplier) * bonusMultiplier)
+                    if score > achievComboScore {
+                        achievComboScore = score
+                        checkAchievement("achievComboScore", subType: 0, amount: Double(achievComboScore))
+                    }
+                    if scoreMultiplier > achievComboMultiplier {
+                        achievComboMultiplier = scoreMultiplier
+                        checkAchievement("achievComboMultiplier", subType: 0, amount: Double(achievComboMultiplier))
+                    }
+                    adjustScore(score)
+                }
+                
+                // Check if the round is over
+                
+                if survivalRoundOver == true {
+                    let enemiesLeft = foregroundNode.childNodeWithName("enemy*")
+                    if enemiesLeft == nil {
+                        survivalRoundOver = false
+                        roundComplete(self.survivalRound)
+                        
+                    }
+                    
+                }
+                scoreMultiplier = 0
+                scoreRunning = 0
+            }
             
         } else if (contact.bodyA.categoryBitMask == BodyType.player1.rawValue && contact.bodyB.categoryBitMask == BodyType.ground.rawValue )  {
             
@@ -1183,38 +1192,45 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             
             }
 
-            //let scaleStretch = SKAction.scaleXTo(1.25, y: 00.75, duration: 0.1)
-            //player.runAction(scaleStretch)
             
-            if scoreRunning > 0 {
-                let score = Int(Double(scoreRunning) * Double(scoreMultiplier) * bonusMultiplier)
-                if score > achievComboScore {
-                    achievComboScore = score
-                    checkAchievement("achievComboScore", subType: 0, amount: Double(achievComboScore))
-                }
-                if scoreMultiplier > achievComboMultiplier {
-                    achievComboMultiplier = scoreMultiplier
-                    checkAchievement("achievComboMultiplier", subType: 0, amount: Double(achievComboMultiplier))
-                }
-                adjustScore(score)
-            }
-            
-            //Check if the Round is over
-            
-            if survivalRoundOver == true {
-                let enemiesLeft = foregroundNode.childNodeWithName("enemy*")
-                if enemiesLeft == nil {
-                    survivalRoundOver = false
-                    roundComplete(self.survivalRound)
-                    
-                }
-                
-            }
             
             playerOneEnemyPass = [""]
             playerOneJump = true
-            scoreMultiplier = 0
-            scoreRunning = 0
+            
+            
+            if playerOneAbilitySmash == true {
+                abilitySmash()
+            } else {
+                
+                // Adjust Score
+                
+                if scoreRunning > 0 {
+                    let score = Int(Double(scoreRunning) * Double(scoreMultiplier) * bonusMultiplier)
+                    if score > achievComboScore {
+                        achievComboScore = score
+                        checkAchievement("achievComboScore", subType: 0, amount: Double(achievComboScore))
+                    }
+                    if scoreMultiplier > achievComboMultiplier {
+                        achievComboMultiplier = scoreMultiplier
+                        checkAchievement("achievComboMultiplier", subType: 0, amount: Double(achievComboMultiplier))
+                    }
+                    adjustScore(score)
+                }
+                
+                // Check if the round is over
+                
+                if survivalRoundOver == true {
+                    let enemiesLeft = foregroundNode.childNodeWithName("enemy*")
+                    if enemiesLeft == nil {
+                        survivalRoundOver = false
+                        roundComplete(self.survivalRound)
+                        
+                    }
+                    
+                }
+                scoreMultiplier = 0
+                scoreRunning = 0
+            }
             
         // Enemy & Ground Contact
             
@@ -2266,11 +2282,72 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                     })
                 }
                 player.runAction(SKAction.sequence([wait, run]))
+            } else if type == "Smash" {
+                playerOneInvincible = true
+                playerOneInstaKill = true
+                player.physicsBody?.velocity.dy = 0
+                player.physicsBody?.affectedByGravity = false
+                let moveUp = SKAction.moveByX(0, y: 75, duration: 0.5)
+                let currentX = player.position.x
+                let test = SKAction.customActionWithDuration(2.0, actionBlock: { (node: SKNode!, elapsedTime: CGFloat) -> Void in
+                    let t = SKActionTimingFunction.
+                    self.player.position.x = currentX + 100 * elapsedTime
+                    
+                    
+                })
+                player.runAction(test)
+                let moveDown = SKAction.runBlock({
+                    self.player.physicsBody?.velocity.dy = -1500
+                    self.specialDeactivation(0.5, skill: skillBool)
+                    self.playerOneAbilitySmash = true
+                })
+                player.runAction(SKAction.sequence([moveUp, moveDown]))
             }
             
         }
     }
     
+    
+    
+    func abilitySmash() {
+        
+        self.playerOneAbilitySmash = false
+        player.physicsBody?.affectedByGravity = true
+        shakeCamera(0.25, node: scaleNode)
+        
+        let explosionWave = SKShapeNode(circleOfRadius: 500)
+        explosionWave.fillColor = yellow
+        explosionWave.position = player.position
+        explosionWave.setScale(0.0)
+        
+        
+        explosionWave.runAction(SKAction.scaleTo(1.0, duration: 1.0))
+        explosionWave.runAction(SKAction.fadeAlphaTo(0.0, duration: 1.0))
+        explosionWave.zPosition = 100
+        foregroundNode.addChild(explosionWave)
+        
+    }
+    
+    func shakeCamera(duration:Float, node: SKNode) {
+        var amplitudeX:Float = 75;
+        var amplitudeY:Float = 50;
+        let numberOfShakes = duration / 0.04;
+        var actionsArray:[SKAction] = [];
+        for index in 1...Int(numberOfShakes) {
+            // build a new random shake and add it to the list
+            let moveX = Float(arc4random_uniform(UInt32(amplitudeX))) - amplitudeX / 2;
+            let moveY = Float(arc4random_uniform(UInt32(amplitudeY))) - amplitudeY / 2;
+            let shakeAction = SKAction.moveByX(CGFloat(moveX), y: CGFloat(moveY), duration: 0.02 * Double(index));
+            shakeAction.timingMode = SKActionTimingMode.EaseOut;
+            actionsArray.append(shakeAction);
+            actionsArray.append(shakeAction.reversedAction());
+            amplitudeX = amplitudeX * 0.75
+            amplitudeY = amplitudeY * 0.75
+        }
+        
+        let actionSeq = SKAction.sequence(actionsArray);
+        node.runAction(actionSeq);
+    }
     
     
     // Provide list of possible enemies to spawn

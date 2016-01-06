@@ -438,9 +438,9 @@
 			<key>Color</key>
 			<string>Green</string>
 			<key>Type</key>
-			<string>Special</string>
+			<string>Ability</string>
 			<key>Description</key>
-			<string>Sends you smashing towards the ground, creating an explosion that destroyes all nearby enemies.</string>
+			<string>When activated, sends you smashing towards the ground, creating an explosion that destroyes all nearby enemies.</string>
 			<key>Upgrades</key>
 			<array>
 				<dict>
@@ -452,19 +452,39 @@
 					<array>
 						<dict>
 							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>Last for how ever long it takes to hit the ground</string>
+							<key>Amount</key>
+							<integer>1</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
 							<string>Activation</string>
 							<key>Title</key>
 							<string>Activation</string>
 							<key>Description</key>
-							<string>Destroy 10 Enemies</string>
+							<string>Destroy 5 Enemies</string>
 							<key>Amount</key>
-							<integer>10</integer>
+							<integer>5</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>Destroy 2 Enemies</string>
+							<key>Amount</key>
+							<integer>0</integer>
 						</dict>
 					</array>
 				</dict>
 				<dict>
 					<key>Cost</key>
-					<integer>100</integer>
+					<integer>200</integer>
 					<key>Rank</key>
 					<integer>0</integer>
 					<key>Attributes</key>
@@ -475,9 +495,9 @@
 							<key>Title</key>
 							<string>Duration</string>
 							<key>Description</key>
-							<string>10 Seconds</string>
+							<string>Last for how ever long it takes to hit the ground</string>
 							<key>Amount</key>
-							<integer>10</integer>
+							<integer>1</integer>
 						</dict>
 						<dict>
 							<key>Type</key>
@@ -485,9 +505,48 @@
 							<key>Title</key>
 							<string>Activation</string>
 							<key>Description</key>
-							<string>Destroy 20 Enemies</string>
+							<string>Destroy 5 Enemies</string>
 							<key>Amount</key>
-							<integer>20</integer>
+							<integer>5</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Upgrade</string>
+							<key>Title</key>
+							<string>Upgrade</string>
+							<key>Description</key>
+							<string>Destroy 2 Enemies</string>
+							<key>Amount</key>
+							<integer>0</integer>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Cost</key>
+					<integer>200</integer>
+					<key>Rank</key>
+					<integer>0</integer>
+					<key>Attributes</key>
+					<array>
+						<dict>
+							<key>Type</key>
+							<string>Duration</string>
+							<key>Title</key>
+							<string>Duration</string>
+							<key>Description</key>
+							<string>Last for how ever long it takes to hit the ground</string>
+							<key>Amount</key>
+							<integer>1</integer>
+						</dict>
+						<dict>
+							<key>Type</key>
+							<string>Activation</string>
+							<key>Title</key>
+							<string>Activation</string>
+							<key>Description</key>
+							<string>Destroy 2 Enemies</string>
+							<key>Amount</key>
+							<integer>2</integer>
 						</dict>
 					</array>
 				</dict>
