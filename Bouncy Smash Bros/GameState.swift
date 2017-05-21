@@ -49,7 +49,7 @@ class GameState {
         
         abilities = []
         activeAbilities = []
-        for ability in abilityList {
+        for _ in abilityList {
             abilities.append(0)
         }
         
